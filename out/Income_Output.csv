@@ -1,0 +1,2 @@
+Transaction ID,Actual Class,Predicted Class,Posterior Probability
+1,>50k,<=50K,0.8333333333333334

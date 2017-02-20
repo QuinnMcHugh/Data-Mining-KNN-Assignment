@@ -11,6 +11,7 @@ public class IrisRecord implements DataRecord {
 	public int ID;
 
 	public int getID(){ return ID; }
+	public String getClassName(){ return irisClass; }
 
 	public String toString(){
 		return "{sepal_length: " + sepal_length + ", sepal_width: "

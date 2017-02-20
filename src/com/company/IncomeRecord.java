@@ -20,6 +20,7 @@ public class IncomeRecord implements DataRecord {
 	public String incomeClass;
 
 	public int getID(){ return ID; }
+	public String getClassName(){ return incomeClass; }
 	
 	public String toString(){
 		return "{ID: " + ID + ", age" + age + ", workclass: " + workclass + 
